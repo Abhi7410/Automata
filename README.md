@@ -37,8 +37,8 @@ This program takes DFA as input and transforms it into another DFA with minimum 
 
 The program takes a regular expression as input and forms a corresponding NFA table.
 The regex alphabet will only consist of lower-case letters (a − z). The operators that will be used are:
-1. + for union
-2. * for closure
+1. '+' for union
+2. '*' for closure
 3. Continuous letters will signify concatenation
 4. () for grouping expressions
 
