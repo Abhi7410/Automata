@@ -28,5 +28,28 @@ This program takes DFA as input and transforms it into another DFA with minimum 
 - The we analyze the transitions and make the appropriate transitions seeing the previous transitions.
 
 **Output**
+
  Similiar to the input format but with new number of states and transitions , and the state number is representing the 
  partition number.
+
+
+### Regx to NFA
+
+The program takes a regular expression as input and forms a corresponding NFA table.
+The regex alphabet will only consist of lower-case letters (a − z). The operators that will be used are:
+1. + for union
+2. * for closure
+3. Continuous letters will signify concatenation
+4. () for grouping expressions
+
+NFA table will be in same format as previous for DFA
+```
+   n k a           n = total number of states , k = total number of transitions , a = total number of final states
+   a1,a2,a3...     final states
+   from,sybmol,to 
+   s1...........   first transition
+   .............
+   .............
+   sk...........   kth transition
+
+```
